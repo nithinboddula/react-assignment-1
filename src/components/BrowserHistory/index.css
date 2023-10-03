@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.bg-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history-bar {
+  background-color: #3367d6;
+  height: 35px;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+.app-logo {
+  height: 20px;
+  margin-left: 100px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: 150px;
+  width: 300px;
+  background-color: #2850a7;
+  border: 1px solid #ececec;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.search-logo {
+  height: 18px;
+  width: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #ececec;
+}
+
+.input-element {
+  background-color: #2850a7;
+  width: 270px;
+  outline: none;
+  border: none;
+  color: #ececec;
+  padding-left: 5px;
+}
+
+.lists-container {
+  background-color: #ffffff;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 1px 0px #64748b;
+  margin: 50px;
+}
+
+.no-history {
+  font-size: 20px;
+  color: #64748b;
+  align-self: center;
+}

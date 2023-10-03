@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.time {
+  color: #475569;
+  font-size: 12px;
+}
+
+.domain-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-self: flex-start;
+  width: 600px;
+}
+
+.logo {
+  height: 18px;
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.domain {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #64748b;
+}
+
+.button {
+  outline: none;
+  background-color: #ffffff;
+  border: none;
+}
+
+.delete-icon {
+  height: 18px;
+  cursor: pointer;
+}
